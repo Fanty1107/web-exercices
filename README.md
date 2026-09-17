@@ -6,3 +6,6 @@
 
 # 3. Lista de Episódios Favoritos(HTML + CSS):
 <img src="assets/exerc3.gif" alt="exer3" width="450">
+
+# 4. Botão Interativo(HTML + CSS + JS):
+<img src="assets/exerc4.gif" alt="exer4" width="950">

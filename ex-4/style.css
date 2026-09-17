@@ -1,0 +1,29 @@
+body{
+    background-color: #ffffff;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.4s, color 0.4s;
+}
+body.dark-mode{
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+#bankai-button{
+    padding: 30px 45px;
+    font-size: 27px;
+    cursor: pointer;
+    border-style:hidden;
+    border-radius: 10px;
+    background-color: #7a4908;
+    color: black;
+    transition: background-color 0.3s;
+}
+#bankai-button:hover{
+    background-color: rgb(226, 174, 20);
+}
