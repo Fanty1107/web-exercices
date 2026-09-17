@@ -5,4 +5,4 @@
 <img src="assets/exerc2.png" alt="exer2" width="950">
 
 # 3. Lista de Episódios Favoritos(HTML + CSS):
-<img src="assets/exerc3.gif" alt="exer3" width="950">
+<img src="assets/exerc3.gif" alt="exer3" width="450">
