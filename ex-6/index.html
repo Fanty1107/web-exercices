@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Quiz Geek</title>
+</head>
+<body>
+    <div id="quizform">
+    <div class="question-box">
+    <p>1. Em qual linguagem de programação o jogo minecraft foi desenvolvido:</p>
+        <label><input type="radio" name="q1" value="a"> Java</label>
+        <label><input type="radio" name="q1" value="b"> C++</label>
+        <label><input type="radio" name="q1" value="c"> C</label>
+    </div>
+    <div class="question-box">
+       <p>2. Na saga Star Wars, quem construiu o C-3PO?</p>
+       <label><input type="radio" name="q2" value="a"> Anakin Skywalker</label>
+       <label><input type="radio" name="q2" value="b"> Luke Skywalker</label>
+       <label><input type="radio" name="q2" value="c"> Mestre Yoda</label>
+    </div>
+    <div class="question-box">
+       <p>3. Qual é o nome do criador da franquia de jogos Drakengard/Nier?</p>
+       <label><input type="radio" name="q3" value="a"> Nobuo Uematsu</label>
+       <label><input type="radio" name="q3" value="b"> Shigeru Miyamoto</label>
+       <label><input type="radio" name="q3" value="c"> Yoko Taro</label>
+    </div>
+    <button onclick="showResult()">Ver resultado</button>
+    <div id="error" class="error-msg"></div>
+    </div>
+
+    <div id="resultado"></div>
+
+</body>
+</html>
