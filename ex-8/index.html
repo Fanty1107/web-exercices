@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - Kingdom Hearts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Galeria de Personagens - Kingdom Hearts</h1>
+        <p>Selecione um herói para ver os detalhes</p>
+    </header>
+
+    <main>
+        <div id="gallery-container" class="gallery-grid"></div>
+    </main>
+
+    <div id="character-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="modal-name">Nome</h2>
+            <div class="modal-body">
+                <div class="modal-info">
+                    <p><strong>Arma:</strong> <span id="modal-weapon"></span></p>
+                    <p><strong>Origem:</strong> <span id="modal-origin"></span></p>
+                    <p><strong>Descrição:</strong> <span id="modal-desc"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
