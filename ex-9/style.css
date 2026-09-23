@@ -1,0 +1,69 @@
+:root {
+    --bg-color: #d3cebd;
+    --text-color: #3b3a36;
+    --container-bg: #e5e1d3;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#game-container {
+    width: 90%;
+    max-width: 600px;
+    border: 2px solid var(--text-color);
+    padding: 30px;
+    background-color: var(--container-bg);
+    box-shadow: 6px 6px 0px var(--text-color);
+}
+
+#story-text {
+    font-size: 1.1rem;
+    min-height: 120px;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+#choices-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+button {
+    background-color: transparent;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    padding: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+}
+
+.restart-btn {
+    margin-top: 15px;
+    border: 2px dashed var(--text-color);
+}
+#footer {
+    position: absolute;
+    bottom: 20px;
+    font-size: 0.85rem;
+    opacity: 0.6;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
